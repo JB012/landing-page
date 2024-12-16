@@ -56,8 +56,9 @@ p {
 
 .images {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap:40px;
-    margin:0 250px;
 }
 
 .image {
@@ -137,11 +138,12 @@ button {
 }
 
 .placeholder {
-    height: 150px;
-    width: 300px;
-    background-color: gray;
-    align-content: center;
-    padding-left: 70px;
+    height: 200px;
+    width: 500px;
+    background-color: #9595a0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action, .footer-content {
